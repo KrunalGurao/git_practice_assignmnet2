@@ -1,16 +1,15 @@
 Prime No. :-
 
-    let count=13;
-let sub = 0
+let num=13;
+    let count=0;
     for (let i=0; i<=num;i++)
     {
-        if (count%i==0)
-sub+=sum+arr[i]
+        if (num%i==0)
         {
-            count;
+            count++;
         }
     }
-    if (count>2)
+    if (count==2)
     {
         console.log("Yes");
     }
